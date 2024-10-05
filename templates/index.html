@@ -19,7 +19,7 @@
             <p>NOTE: Enter the values as per mentioned !</p>
 
             {% include 'message.html' %}
-            <form action="http://127.0.0.1:5000/predict" method="POST">
+            <form action="/predict" method="POST">
                 Education level :<input type="number" name='Education'placeholder="1-Bachelors  |  2-Masters  |  3-PHD"><br></br>
                 Year of joining the company : <input type="number" name='JoiningYear'placeholder="Enter the Joining Year "><br></br>
                 City office where posted: <input type="number" name='City'placeholder="1-Banglore  |  2-Pune  |  3-New Delhi"><br></br>
